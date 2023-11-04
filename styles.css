@@ -1,0 +1,14 @@
+#marketing_container {
+    display: none;
+}
+
+form {
+    max-width: 100%;
+    overflow: auto;
+}
+
+fieldset {
+    flex-flow: column wrap;
+    display: flex;
+    height: calc(100vh - 25em);
+}
