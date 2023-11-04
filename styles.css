@@ -2,12 +2,12 @@
     display: none;
 }
 
-form {
-    max-width: 100%;
+#saml_form {
+    max-width: none;
     overflow: auto;
 }
 
-fieldset {
+#saml_form fieldset {
     flex-flow: column wrap;
     display: flex;
     height: calc(100vh - 25em);
